@@ -1,0 +1,17 @@
+<%@ include file="/WEB-INF/jsp/include.jsp" %>
+<%@ page import = "java.util.ResourceBundle" %> <% ResourceBundle resource = ResourceBundle.getBundle("message");
+
+String title=resource.getString("title");
+String heading=resource.getString("heading"); 
+String greeting=resource.getString("greeting"); %>
+<html>
+  <head><title><fmt:message key="title"></fmt:message></title></head>
+  <body>
+    <h1><fmt:message key="heading"></fmt:message></h1>
+    <p><fmt:message key="greeting"/><c:out value="${model.now}"/></p>
+    <h3>Products</h3>
+    <c:forEach items="${model.Products}" var="prod">
+    	<c:out value="${prod.description}"/> <i>$<c:out value="${prod.price}"/></i><br><br>
+    </c:forEach>
+  </body>
+</html>

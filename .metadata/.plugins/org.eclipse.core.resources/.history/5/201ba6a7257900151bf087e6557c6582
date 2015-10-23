@@ -1,0 +1,5 @@
+package net.viralpatel.struts.helloworld.action;
+
+public class LoginAction {
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="springapp.service.ProductManager"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="springapp.service.SimpleProductManager"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.springframework.test.AbstractTransactionalDataSourceSpringContextTests"/>
+<fullyQualifiedTypeName name="repository.ProductDao"/>
+<fullyQualifiedTypeName name="repository.InMemoryProductDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="springapp.domain.Product"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+</qualifiedTypeNameHistroy>
